@@ -1,0 +1,16 @@
+Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
+
+Remember to specify the data types, primary keys, foreign keys, and other constraints.
+
+For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site., which takes two primary keys to uniquely identify a row.
+
+Be sure to create the tables in the correct order to handle the foreign keys.
+
+Import each CSV file into its corresponding SQL table.
+Each csv is named before the (:) then the column names are after the (:) separated by (,) 
+departments.csv: dept_no, dept_name
+dept_emp.csv: emp_no, dept_no
+dept_manager.csv: dept_no,emp_no
+employees.csv: emp_no, emp_title_id, birth_date, first_name, last_name, sex,	 hire_date
+salaries.csv: emp_no, salary
+titles.csv: title_id, title
